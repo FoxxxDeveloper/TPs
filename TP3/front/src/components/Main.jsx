@@ -13,7 +13,7 @@ const Main = (props) => {
   const instagram= props.alumno.instagram
   const image= props.alumno.image
   return (
-    <div>
+    <div style={{alignItems:'center', display:'flex', justifyContent:'center', marginTop:'200px'}}>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>

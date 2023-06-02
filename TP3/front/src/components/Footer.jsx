@@ -7,10 +7,10 @@ import {
 } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import '../css/Footer.css'
 const Footer = () => {
   return (
-    <div>
+    <div className='footer'>
    <MDBFooter className='bg-light text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
