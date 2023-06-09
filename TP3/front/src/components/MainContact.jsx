@@ -118,6 +118,7 @@ const MainContact = () => {
         <th>Consulta</th>
         <th> </th>
       </tr>
+      
     </thead>
     <tbody>
       {listConsultas.map((cons) =>
